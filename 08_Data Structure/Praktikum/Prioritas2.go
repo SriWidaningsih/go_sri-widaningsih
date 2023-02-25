@@ -5,8 +5,8 @@ import "fmt"
 func PairSum(arr []int, target int) []int {
 	A := make(map[int]int)
 	for K, number := range arr {
-		komplemen := target - number
-		if L, Hasil := A[komplemen]; Hasil {
+		komp := target - number
+		if L, Hasil := A[komp]; Hasil {
 			return []int{L, K}
 		}
 		A[number] = K
