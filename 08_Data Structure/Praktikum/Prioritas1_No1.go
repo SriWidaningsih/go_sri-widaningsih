@@ -9,7 +9,7 @@ func ArrayMerge(arrayA, arrayB []string) []string {
 
 	for _, nilainya := range arrayA {
 
-		if _, ok := Beda[nilainya]; !ok {
+		if _, fix := Beda[nilainya]; !fix {
 			Beda[nilainya] = true
 			HasilAkhir = append(HasilAkhir, nilainya)
 		}
