@@ -5,7 +5,7 @@
 - Untuk melewatkan pembuatan slice sementara untuk diteruskan ke suatu fungsi
 - Ketika jumlah parameter masukan tidak diketahui
 - Untuk mengekspresikan maksud Anda dalam meningkatkan keterbacaan
-- Anonymous function adalah fungsi yang tidak mengandung nama apa pun. Ini berguna ketika Anda ingin membuat fungsi inline.CLOSURE
+- Anonymous function adalah fungsi yang tidak mengandung nama apa pun. Ini berguna ketika Anda ingin membuat fungsi inline.
 - Closure adalah tipe khusus dari fungsi anonim yang mereferensikan variabel yang dideklarasikan di luar fungsi itu sendiri.
 - Deferred function func hanya dieksekusi setelah return func utamanya. Beberapa return juga dapat digunakan, mereka berjalan sebagai stack, satu per satu.
 
