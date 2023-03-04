@@ -7,7 +7,7 @@ type Car struct {
 	fuelIn    int
 }
 
-func (e Car) EstimasiSampai() float64 {
+func (e *Car) EstimasiSampai() float64 {
 	return float64(e.fuelIn) / (1.5)
 }
 
