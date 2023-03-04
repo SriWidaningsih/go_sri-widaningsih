@@ -20,7 +20,7 @@ func Compare(a, b string) string {
 
 func main() {
 	fmt.Println("Substring yang sama pada dua kata tersebut:")
-	fmt.Println(Compare("AKA", "AKASHI")) //AKA
+	fmt.Println(Compare("AKA", "AKASHI"))
 	fmt.Println(Compare("KANGOORO", "KANG"))
 	fmt.Println(Compare("KI", "KIJANG"))
 	fmt.Println(Compare("KUPU-KUPU", "KUPU"))
