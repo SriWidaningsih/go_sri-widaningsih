@@ -31,32 +31,32 @@
 
 5.  Tampilan ketika _instance_ sudah terbuat di DigitalOcean
 
-    ![image](./ScreenShot/Tampilan%20ketika%20instance%20nya%20terbuat.jpg)
+    ![image](./Screenshot/Tampilan%20ketika%20instance%20nya%20terbuat.jpg)
 
 6.  Masuk ke _instance_ dengan ssh root
 
-    ![image](./ScreenShot/masuk%20instance%20dengan%20shh%20root.jpg)
+    ![image](./Screenshot/masuk%20instance%20dengan%20shh%20root.jpg)
 
 7.  Membuat _Database_ di DigitalOcean
 
-    ![image](./ScreenShot/Membuat%20Database%20di%20DigitalOcean.jpg)
+    ![image](./Screenshot/Membuat%20Database%20di%20DigitalOcean.jpg)
 
 8.  Memilih product database
 
-    ![image](./ScreenShot/Memilih%20harga%20yang%20murah%20database.jpg)
+    ![image](./Screenshot/Memilih%20harga%20yang%20murah%20database.jpg)
 
 9.  Tampilan ketika _Database_ terbuat di DigitalOcean
 
-    ![image](./ScreenShot/Tampilan%20ketika%20database%20nya%20terbuat.jpg)
+    ![image](./Screenshot/Tampilan%20ketika%20database%20nya%20terbuat.jpg)
 
 10. Mencoba menyabungkan _Database_ yang dibuat di DigitalOcean
 
-    ![image](./ScreenShot/Berhasil%20konek%20ke%20database%20DigitalOcean.jpg)
+    ![image](./Screenshot/Berhasil%20konek%20ke%20database%20DigitalOcean.jpg)
 
 11. Run _Image Docker_ dari instance yang sudah dibuat DigitalOcean
 
-    ![image](./ScreenShot/docker%20run%20di%20droplet.JPG)
+    ![image](./Screenshot/docker%20run%20di%20droplet.JPG)
 
 12. Test _API Public_ dari Postman
 
-    ![image](./ScreenShot/testing%20API.JPG)
+    ![image](./Screenshot/testing%20API.JPG)
