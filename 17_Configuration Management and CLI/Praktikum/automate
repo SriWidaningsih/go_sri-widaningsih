@@ -1,0 +1,53 @@
+#!/bin/bash
+
+# membuat direktori baru dengan nama sesuai dengan argumen pertama, diikuti dengan tanggal saat ini
+mkdir "$1 $(date +"%Y-%m-%d")"
+
+# masuk ke direktori tersebut
+cd "$1 $(date +"%Y-%m-%d")"
+
+# membuat folder about_me, my_friends, dan my_system_info
+mkdir about_me my_system_info
+mkdir my_friends
+
+# masuk ke folder about_me dan membuat folder personal dan professional
+cd about_me
+mkdir personal professional
+
+# masuk ke folder personal dan membuat file facebook.txt
+cd personal
+touch facebook.txt
+
+# masuk ke folder professional dan membuat file linkedin.txt
+cd ../professional
+touch linkedin.txt
+
+# isi file facebook.txt dengan url Facebook yang diberikan di argumen kedua
+echo $2 > ../personal/facebook.txt
+
+# isi file linkedin.txt dengan url LinkedIn yang diberikan di argumen ketiga
+echo $3 > linkedin.txt
+
+# kembali ke direktori utama
+cd ../../my_system_info
+# buat file about_this_laptop.txt dan isi dengan informasi uname -a
+touch about_this_laptop.txt
+echo "User: $(whoami)" > about_this_laptop.txt
+echo "System Info: $(uname -a)" >> about_this_laptop.txt
+
+# buat file internet_connection.txt dan isi dengan hasil keluaran ping ke google.com sebanyak 3 kali
+touch internet_connection.txt
+ping -n 3 google.com > internet_connection.txt
+
+# masuk ke folder my_friends
+cd ../my_friends
+
+# unduh file list_of_my_friends.txt dengan menggunakan perintah curl
+curl -O https://raw.githubusercontent.com/techtonik/friend-list/master/list_of_my_friends.txt
+
+
+# kembali ke direktori utama
+cd ../
+
+# tampilkan struktur direktori dengan perintah tree
+tree "$1 $(date +"%Y-%m-%d")"
