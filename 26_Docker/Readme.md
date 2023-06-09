@@ -29,11 +29,11 @@
 ### Cara Menggunakan docker :
 
 1.  Membuat image dengan docker build
-    ![image](./Screenshot/docker%20build.JPG)
+    ![image](./ScreenShots/docker%20build.JPG)
 
 2.  Menjalankan image docker untuk dijadikan container
-    ![image](./Screenshot/docker%20run.JPG)
+    ![image](./ScreenShots/docker%20run.JPG)
 
 3.  Testing API ketika container docker sudah berjalan
-![image](./Screenshot/test%20API.JPG)
+![image](./ScreenShots/test%20API.JPG)
 </details>
