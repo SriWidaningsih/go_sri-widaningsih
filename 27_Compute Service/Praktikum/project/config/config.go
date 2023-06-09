@@ -14,10 +14,10 @@ var DB *gorm.DB
 func InitDB() {
 
 	config := map[string]string{
-		"DB_Username": "alta",
-		"DB_Password": "root",
-		"DB_Port":     "3306",
-		"DB_Host":     "192.168.1.7",
+		"DB_Username": "doadmin",
+		"DB_Password": "AVNS_6OAAT5XU-qZFKRPpW5R",
+		"DB_Port":     "25060",
+		"DB_Host":     "testing-do-user-13944740-0.b.db.ondigitalocean.com",
 		"DB_Name":     "training",
 	}
 
